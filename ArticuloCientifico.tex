@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \graphicspath{ {RepoProyecto/} }
 \usepackage{caption}
+\usepackage{float}
 \usepackage{subcaption}
 \usepackage{hyperref}
 
@@ -28,30 +29,38 @@ En este estudio se hace uso de muestras de agua tratadas y sin tratar de plantas
 Las muestras fueron sometidas a corriente eléctrica. A algunas se le determinó el número, tamaño y morfología de las partículas que contenían con un microscopio electrónico de barrido. Otras fueron tomadas para análisis cualitativo con Espectrofotómetro de transformada de Fourier, Espectroscopia Raman y microanálisis.
 %Estado del Arte
 \section{Imágenes y tablas}
-	\begin{figure}[h!]
+	\begin{figure}[H]
 		\centering
-		\begin{subfigure}[h]{0.45\textwidth}
+		\begin{subfigure}{0.45\textwidth}
 			\includegraphics[width=0.5\textwidth]{electronico.jpg}
 			\caption{Tamaño de partícula con microscopio electrónico}
 		\end{subfigure}
-		\begin{subfigure}[h]{0.45\textwidth}
+		\begin{subfigure}{0.45\textwidth}
 		\includegraphics[width=1.2\textwidth]{size.jpg}
 		\caption{Distribución de tamaño en agua libre y en agua tratada en las diferentes plantas de tratamientos}
 		\end{subfigure}
 		
 	\end{figure}
 	
-	\begin{figure}[t!]
+	\begin{figure}[H]
 		\centering
-		\begin{subfigure}[h]{0.45\textwidth}
+		\begin{subfigure}{0.45\textwidth}
 			\includegraphics[width=1\textwidth]{proporcion.jpg}
 			\caption{Proporciones de los diferentes MPs en agua sin tratar(a) y tratada(b)}
 		\end{subfigure}
-		\begin{subfigure}[h]{0.45\textwidth}
+		\begin{subfigure}{0.45\textwidth}
 			\includegraphics[width=1\textwidth]{composicion.jpg}
 			\caption{Composición de de las partículas en agua sin tratar(a) y tratada(b)}
 		\end{subfigure}
 		
 	\end{figure}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=0.9]{tabla.png}
+		\caption{Comparación de nuestros resultados con otros estudios}
+	\end{figure}
+\section{Fórmulas}
+	Aunque todos los cálculos fueron realizados mediante computación con el programa R, aquí se recogen algunas de las fórmulas usadas:
+	
 	
 \end{document}
