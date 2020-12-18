@@ -7,4 +7,4 @@
 \contentsline {section}{\numberline {4}Resultados}{3}{section.4}%
 \contentsline {section}{\numberline {5}Conclusiones}{3}{section.5}%
 \contentsline {section}{\numberline {6}Imágenes y tablas}{4}{section.6}%
-\contentsline {section}{\numberline {7}Fórmulas}{4}{section.7}%
+\contentsline {section}{\numberline {7}Fórmulas}{5}{section.7}%
