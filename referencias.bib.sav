@@ -1,0 +1,75 @@
+% Encoding: UTF-8
+
+@Article{Su2016,
+  author    = {Lei Su and Yingang Xue and Lingyun Li and Dongqi Yang and Prabhu Kolandhasamy and Daoji Li and Huahong Shi},
+  journal   = {Environmental Pollution},
+  title     = {Microplastics in Taihu Lake, China},
+  year      = {2016},
+  month     = {sep},
+  pages     = {711--719},
+  volume    = {216},
+  doi       = {10.1016/j.envpol.2016.06.036},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Lei2018,
+  author    = {Lili Lei and Mengting Liu and Yang Song and Shibo Lu and Jiani Hu and Chengjin Cao and Bing Xie and Huahong Shi and Defu He},
+  journal   = {Environmental Science: Nano},
+  title     = {Polystyrene (nano)microplastics cause size-dependent neurotoxicity, oxidative damage and other adverse effects {inCaenorhabditis} elegans},
+  year      = {2018},
+  number    = {8},
+  pages     = {2009--2020},
+  volume    = {5},
+  doi       = {10.1039/c8en00412a},
+  publisher = {Royal Society of Chemistry ({RSC})},
+}
+
+@Article{Lei2018a,
+  author    = {Lili Lei and Siyu Wu and Shibo Lu and Mengting Liu and Yang Song and Zhenhuan Fu and Huahong Shi and Kathleen M. Raley-Susman and Defu He},
+  journal   = {Science of The Total Environment},
+  title     = {Microplastic particles cause intestinal damage and other adverse effects in zebrafish Danio rerio and nematode Caenorhabditis elegans},
+  year      = {2018},
+  month     = {apr},
+  pages     = {1--8},
+  volume    = {619-620},
+  doi       = {10.1016/j.scitotenv.2017.11.103},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Pivokonsky2018,
+  author    = {Martin Pivokonsky and Lenka Cermakova and Katerina Novotna and Petra Peer and Tomas Cajthaml and Vaclav Janda},
+  journal   = {Science of The Total Environment},
+  title     = {Occurrence of microplastics in raw and treated drinking water},
+  year      = {2018},
+  month     = {dec},
+  pages     = {1644--1651},
+  volume    = {643},
+  doi       = {10.1016/j.scitotenv.2018.08.102},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Di2018,
+  author    = {Mingxiao Di and Jun Wang},
+  journal   = {Science of The Total Environment},
+  title     = {Microplastics in surface waters and sediments of the Three Gorges Reservoir, China},
+  year      = {2018},
+  month     = {mar},
+  pages     = {1620--1627},
+  volume    = {616-617},
+  doi       = {10.1016/j.scitotenv.2017.10.150},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Osmann2018,
+  author    = {Barbara E. O{\ss}mann and George Sarau and Heinrich Holtmannspötter and Monika Pischetsrieder and Silke H. Christiansen and Wilhelm Dicke},
+  journal   = {Water Research},
+  title     = {Small-sized microplastics and pigmented particles in bottled mineral water},
+  year      = {2018},
+  month     = {sep},
+  pages     = {307--316},
+  volume    = {141},
+  doi       = {10.1016/j.watres.2018.05.027},
+  publisher = {Elsevier {BV}},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
