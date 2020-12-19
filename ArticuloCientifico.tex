@@ -4,6 +4,7 @@
 \usepackage[a4paper]{geometry}
 \geometry{top=2.54cm, bottom=2.54cm, left=2.54cm, right=2.54cm}
 \usepackage[spanish]{babel}
+\usepackage{amssymb, amsmath}
 \usepackage{graphicx}
 \graphicspath{ {RepoProyecto/} }
 \usepackage{caption}
@@ -26,7 +27,8 @@
 \tableofcontents
 \section{Introducción}
 En este estudio se hace uso de muestras de agua tratadas y sin tratar de plantas de tratamiento de agua(WTPs). Todas ellas utilizan sistemas diferentes en el tratamiento y la fuente de agua que toman, así se evitan errores. Por la misma razón se tomaron las muestras en invierno, minimizando la variación de los resultados por interferencias con fitoplacton.
-Las muestras fueron sometidas a corriente eléctrica. A algunas se le determinó el número, tamaño y morfología de las partículas que contenían con un microscopio electrónico de barrido. Otras fueron tomadas para análisis cualitativo con Espectrofotómetro de transformada de Fourier, Espectroscopia Raman y microanálisis.
+Las muestras fueron sometidas a corriente eléctrica. A algunas se le determinó el número, tamaño y morfología de las partículas que contenían con un microscopio electrónico de barrido. Otras fueron tomadas para análisis cualitativo con Espectrofotómetro de transformada de Fourier, Espectroscopia Raman y microanálisis.\\
+Basado en el Estudio realizado por \textit{Pivokonsky, M.Occurrence of microplastics in raw and treated drinking water} \cite{Pivokonsky2018}.
 \section{Estado del Arte}
 	Recientemente, la presencia de microplásticos en aguas superficiales ha ganado una considerable atención. De todas formas, los métodos de muestreo varían significativamente- algunos autores cuantifican los MPs mediante la presencia por $km^{2}$ \cite{Su2016} y otros determinan el contenido de partícula por volumen de agua \cite{Di2018}. Los resultados de los estudios que tratan los MPs en agua limpia y los cuantifica por muestra de volumen, y por tanto son comparables a nuestro estudio, están representados en figura \ref{tabla2}. De todas formas, ninguno de ellos trata con el análisis de partículas en aguas a una escala tan pequeña como el nuestro. \\
 	Como nuestro estudio demuestra que la mayoría de partículas están por debajo de 10$\mu$m, no sorprende que el contenido de MP determinado en nuestra muestras es mucho más grande comparado con otros estudios \cite{Su2016}. Por contraste, los resultados de estudios que obtienen magnitudes similares al nuestro \cite{Osmann2018}, no podemos compararlos del todo ya que aparece una proporción no del todo clara la procedencia. Igualmente, en cuanto al tamaño si encuentran el 95\% similar al muestro.
@@ -118,8 +120,22 @@ Las muestras fueron sometidas a corriente eléctrica. A algunas se le determinó
 
 \section{Fórmulas}
 	Aunque todos los cálculos fueron realizados mediante computación con el programa R, aquí se recogen algunas de las fórmulas usadas:\\
-	$\sigma^2=\frac{\sum_{i=1}^{n}x_{i}^2*f_{i}}{\bar{X}}-(\bar{X}^2)$	
-	
+	La varianza la denotamos por: $\sigma^2=\frac{\sum_{i=1}^{n}x_{i}^2*f_{i}}{\bar{X}}-(\bar{X}^2)$\\
+	La ecuación de la recta: $y=mx+b$\\
+	Al hacerse uso de la Inferencia estadística, tenemos:\\
+	La media o esperanza: $\bar{x}=\frac{1}{n}\sum_{i=1}^{n}x_{i}$\\
+	La cuasivarianza muestral:
+	$S_{c}^{2}=\frac{1}{n-1}\sum_{i=1}^{n}(x_{i}-\bar{X})^{2}$\\
+	Cuasivarianza tipica muestral:
+	$S_{c}=\sqrt{S_{c}^{2}}$\\
+	Intervalo de confianza para estimar $\mu$ ($\sigma^{2}$ conocida):
+	$I_{(1-\alpha)}(\mu)=[\bar{X}-z_{\alpha/2}\frac{\sigma}{\sqrt{n}},\bar{X}+z_{\alpha/2}\frac{\sigma}{\sqrt{n}}]$\\
+	Distribución binomial aproximada como una normal:
+	$N(p,\sqrt{\frac{pq}{n}})$\\
+	Intervalo de confianza para la proporción:
+	$I=[p'-z_{\alpha/2}\sqrt{\frac{p'q'}{n}},p'+z_{\alpha/2}\sqrt{\frac{p'q'}{n}}]$\\
+	Esperanza: $E=z_{\alpha/2}\frac{\sigma}{\sqrt{n}}$\\
+	Tamaño de la muestra: $n=(z_{\alpha/2}\frac{\sigma}{E})^{2}$
 	
 	\bibliographystyle{plain}
 	\bibliography{referencias}
